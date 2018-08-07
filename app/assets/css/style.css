@@ -53,6 +53,15 @@ body {
 .eighth {
   left: 950px; }
 
+.ninth {
+  left: 1050px; }
+
+.tenth {
+  left: 1180px; }
+
+.eleventh {
+  left: 1350px; }
+
 ul {
   opacity: .8;
   list-style: none;
@@ -87,6 +96,15 @@ li {
   animation: 10.66667s spiral-staircase7 linear infinite; }
 
 .eighth li {
+  animation: 10.66667s spiral-staircase8 linear infinite; }
+
+.ninth li {
+  animation: 10.66667s spiral-staircase5 linear infinite; }
+
+.tenth li {
+  animation: 10.66667s spiral-staircase3 linear infinite; }
+
+.eleventh li {
   animation: 10.66667s spiral-staircase8 linear infinite; }
 
 li:nth-child(1) {
