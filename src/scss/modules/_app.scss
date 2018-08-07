@@ -30,7 +30,8 @@ body {
     // background: navy;
     // background: linear-gradient(0deg, rgba(2,39,39,1) 0%, rgba(9,89,78,1) 35%, rgba(29,131,135,1) 74%, rgba(96,176,128,1) 100%);
     // background: -webkit-linear-gradient(0deg, rgba(2,39,39,1) 0%, rgba(9,89,78,1) 35%, rgba(29,131,135,1) 74%, rgba(96,176,128,1) 100%);
-    font-family: 'IBM Plex Mono', monospace;
+	font-family: 'IBM Plex Mono', monospace;
+	color:rgb(0, 26, 26);
     background: url(../kelp-bcg.jpg) no-repeat center center fixed;
 //     -webkit-background-size: cover;
 //   -moz-background-size: cover;
@@ -40,40 +41,52 @@ body {
 	// overflow: hidden;
 }
 
+.outer{
+	display:flex;
+	justify-content: center;
+	// background: pink;
+}
+.wrapper{
+	width:80%;
+	// display:flex;
+	// justify-content: center;
+	// background: pink;
+}
+.strand{
+	position: absolute;
+}
 .first{
     // background: pink;
     // width:0px;
-    position: absolute;
-    left:100px;
+    
+    left:140px;
 }
 .second{
-    position: absolute;
-    left:250px;
+    left:240px;
 }
 .third{
-    position: absolute;
-    left:400px;
+    left:380px;
 }
 .fourth{
-    position: absolute;
-    left:550px;
+    left:450px;
 }
 .fifth{
-    position: absolute;
-    left:700px;
+    left:570px;
 }
 .sixth{
-    position: absolute;
-    left:850px;
+    left:700px;
 }
 .seventh{
-    position: absolute;
-    left:1000px;
+    left:850px;
 }
 .eighth{
-    position: absolute;
-    left:1150px;
+    left:950px;
 }
+
+
+
+
+
 ul {
 	opacity:.8;
 	// overflow: hidden;
@@ -86,7 +99,6 @@ ul {
 	font-size:14px;
 	line-height:.6;
 }
-
 
 li {
 	position: absolute;
@@ -101,18 +113,17 @@ li {
 // 	animation: #{$lines/$delayandduration}s spiral-staircase linear infinite;
 // }
 
-
 .first li {
-	animation: #{$lines/$delayandduration}s spiral-staircase linear infinite;
+	animation: #{$lines/$delayandduration}s spiral-staircase8 linear infinite;
 }
 .second li {
-	animation: #{$lines/$delayandduration}s spiral-staircase2 linear infinite;
+	animation: #{$lines/$delayandduration}s spiral-staircase6 linear infinite;
 }
 .third li {
-	animation: #{$lines/$delayandduration}s spiral-staircase3 linear infinite;
+	animation: #{$lines/$delayandduration}s spiral-staircase5 linear infinite;
 }
 .fourth li {
-	animation: #{$lines/$delayandduration}s spiral-staircase4 linear infinite;
+	animation: #{$lines/$delayandduration}s spiral-staircase7 linear infinite;
 }
 .fifth li {
 	animation: #{$lines/$delayandduration}s spiral-staircase5 linear infinite;
@@ -170,23 +181,23 @@ li {
 		}
 	}
 
-@keyframes spiral-staircase {
-	0% {
-		transform: rotateY(90deg) translateY(105vh) ;
-	} 
-	100% {
-		transform: rotateY(-90deg) translateY(-5vh) ;
-	}
-}
-@keyframes spiral-staircase2 {
-	0% {
-		transform: rotateY(120deg) translateY(105vh) ;
-	}   
-	100% {
-		transform: rotateY(-120deg) translateY(-5vh) ;
-	}
-}
-@keyframes spiral-staircase3 {
+// @keyframes spiral-staircase {
+// 	0% {
+// 		transform: rotateY(90deg) translateY(105vh) ;
+// 	} 
+// 	100% {
+// 		transform: rotateY(-90deg) translateY(-5vh) ;
+// 	}
+// }
+// @keyframes spiral-staircase2 {
+// 	0% {
+// 		transform: rotateY(120deg) translateY(105vh) ;
+// 	}   
+// 	100% {
+// 		transform: rotateY(-120deg) translateY(-5vh) ;
+// 	}
+// }
+@keyframes spiral-staircase1 {
 	0% {
 		transform: rotateY(150deg) translateY(105vh) ;
 	}
@@ -194,7 +205,7 @@ li {
 		transform: rotateY(-150deg) translateY(-5vh) ;
 	}
 }
-@keyframes spiral-staircase4 {
+@keyframes spiral-staircase2 {
 	0% {
 		transform: rotateY(180deg) translateY(105vh) ;
 	} 
@@ -202,7 +213,7 @@ li {
 		transform: rotateY(-180deg) translateY(-5vh) ;
 	}
 }
-@keyframes spiral-staircase5 {
+@keyframes spiral-staircase4 {
 	0% {
 		transform: rotateY(210deg) translateY(105vh) ;
 	}   
@@ -210,7 +221,7 @@ li {
 		transform: rotateY(-210deg) translateY(-5vh) ;
 	}
 }
-@keyframes spiral-staircase6 {
+@keyframes spiral-staircase8 {
 	0% {
 		transform: rotateY(240deg) translateY(105vh) ;
 	}
@@ -218,7 +229,7 @@ li {
 		transform: rotateY(-240deg) translateY(-5vh) ;
 	}
 }
-@keyframes spiral-staircase7 {
+@keyframes spiral-staircase6 {
 	0% {
 		transform: rotateY(270deg) translateY(105vh) ;
 	}   
@@ -226,11 +237,27 @@ li {
 		transform: rotateY(-270deg) translateY(-5vh) ;
 	}
 }
-@keyframes spiral-staircase8 {
+@keyframes spiral-staircase3 {
 	0% {
 		transform: rotateY(300deg) translateY(105vh) ;
 	}
 	100% {
 		transform: rotateY(-300deg) translateY(-5vh) ;
+	}
+}
+@keyframes spiral-staircase7 {
+	0% {
+		transform: rotateY(330deg) translateY(105vh) ;
+	}   
+	100% {
+		transform: rotateY(-330deg) translateY(-5vh) ;
+	}
+}
+@keyframes spiral-staircase5 {
+	0% {
+		transform: rotateY(360deg) translateY(105vh) ;
+	}
+	100% {
+		transform: rotateY(-360deg) translateY(-5vh) ;
 	}
 }
