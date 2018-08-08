@@ -88,58 +88,58 @@ body {
 
 .first {
   color: #003131;
-  height: 600px;
+  height: 95vh;
   left: -40px; }
 
 .second {
   color: #006345;
-  height: 740px;
+  height: 100vh;
   left: 90px; }
 
 .third {
   color: #009e6f;
-  height: 700px;
+  height: 90vh;
   left: 220px;
   bottom: 0; }
 
 .fourth {
   color: #002200;
-  height: 660px;
+  height: 100vh;
   left: 350px; }
 
 .fifth {
   color: #006345;
-  height: 740px;
+  height: 85vh;
   left: 490px; }
 
 .sixth {
   color: #002200;
-  height: 700px;
+  height: 95vh;
   left: 620px; }
 
 .seventh {
   color: #002200;
-  height: 600px;
+  height: 100vh;
   left: 750px; }
 
 .eighth {
   color: #006345;
-  height: 650px;
+  height: 80vh;
   left: 880px; }
 
 .ninth {
   color: #002200;
-  height: 740px;
+  height: 100vh;
   left: 1010px; }
 
 .tenth {
   color: #002200;
-  height: 600px;
+  height: 95vh;
   left: 1140px; }
 
 .eleventh {
   color: #006345;
-  height: 700px;
+  height: 100vh;
   left: 1260px; }
 
 .strand ul {
