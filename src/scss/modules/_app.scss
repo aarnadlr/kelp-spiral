@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
 html {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	//Declare font sizes as if in px, but in rem. ie: For 16px, declare 1.6rem
+	font-size: 62.5%;
 }
   *, *:before, *:after {
     box-sizing: inherit;
@@ -8,7 +10,7 @@ html {
 
 body,html{
     // min-height: 100vh;
-    // overflow: hidden;
+    overflow: hidden;
 }
 
 
@@ -40,6 +42,9 @@ body {
     // min-height: 100%;
 	// overflow: hidden;
 }
+
+
+
 
 .outer{
 	display:flex;
@@ -96,7 +101,7 @@ body {
 
 
 
-ul {
+.strand ul {
 	opacity:.8;
 	// overflow: hidden;
 	// perspective: 900px;
@@ -109,7 +114,7 @@ ul {
 	line-height:.6;
 }
 
-li {
+.strand li {
 	position: absolute;
 	// top: 0;
 	// width: 100%;

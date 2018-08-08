@@ -1,10 +1,73 @@
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 @import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
+.cardContainer {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center;
+  z-index: 10; }
+
+.card2 {
+  display: inline-block;
+  background: white;
+  padding: 45px;
+  color: #00493f;
+  margin: 50px;
+  width: 570px;
+  min-height: 400px; }
+  .card2 h1 {
+    font-size: 29px;
+    font-weight: 400;
+    margin: 0;
+    line-height: .8; }
+  .card2 p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    line-height: 1.6; }
+  .card2 ul li {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-left: 1.6rem; }
+  .card2 .download {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 6px 16px;
+    margin-top: 2rem;
+    margin-bottom: 10px;
+    transition: all .2s ease; }
+  .card2 .github {
+    text-decoration: underline; }
+  .card2 .getintouch {
+    margin-bottom: 0;
+    text-decoration: underline; }
+
+@media only screen and (max-width: 530px) {
+  .card2 {
+    margin: 20px;
+    padding: 25px; } }
+
+.download:hover {
+  -ms-transform: translateY(-4px);
+      transform: translateY(-4px);
+  background: #498e92;
+  color: white; }
+
 html {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  font-size: 62.5%; }
 
 *, *:before, *:after {
   box-sizing: inherit; }
+
+body, html {
+  overflow: hidden; }
 
 * {
   margin: 0;
@@ -62,14 +125,14 @@ body {
 .eleventh {
   left: 1350px; }
 
-ul {
+.strand ul {
   opacity: .8;
   list-style: none;
   text-align: center;
   font-size: 14px;
   line-height: .6; }
 
-li {
+.strand li {
   position: absolute;
   -ms-transform: translateY(105vh);
       transform: translateY(105vh); }
