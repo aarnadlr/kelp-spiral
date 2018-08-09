@@ -87,60 +87,56 @@ body {
   overflow: hidden; }
 
 .first {
-  color: #003131;
   height: 95vh;
   left: -40px; }
 
 .second {
-  color: #006345;
   height: 100vh;
   left: 90px; }
 
 .third {
-  color: #009e6f;
   height: 90vh;
-  left: 220px;
-  bottom: 0; }
+  left: 220px; }
 
 .fourth {
-  color: #002200;
   height: 100vh;
   left: 350px; }
 
 .fifth {
-  color: #006345;
   height: 85vh;
   left: 490px; }
 
 .sixth {
-  color: #002200;
   height: 95vh;
   left: 620px; }
 
 .seventh {
-  color: #002200;
   height: 100vh;
   left: 750px; }
 
 .eighth {
-  color: #006345;
   height: 80vh;
   left: 880px; }
 
 .ninth {
-  color: #002200;
   height: 100vh;
   left: 1010px; }
 
 .tenth {
-  color: #002200;
   height: 95vh;
   left: 1140px; }
 
 .eleventh {
-  color: #006345;
+  height: 80vh;
+  left: 1270px; }
+
+.twelfth {
   height: 100vh;
-  left: 1260px; }
+  left: 1400px; }
+
+.thirteenth {
+  height: 90vh;
+  left: 1530px; }
 
 .strand ul {
   color: #002424;
@@ -155,37 +151,7 @@ body {
   -ms-transform: translateY(105vh);
       transform: translateY(105vh); }
 
-.first li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.second li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.third li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.fourth li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.fifth li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.sixth li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.seventh li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.eighth li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.ninth li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.tenth li {
-  animation: 10.66667s spiral-staircase3 linear infinite; }
-
-.eleventh li {
+.strand li {
   animation: 10.66667s spiral-staircase3 linear infinite; }
 
 li:nth-child(1) {
